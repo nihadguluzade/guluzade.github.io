@@ -13,7 +13,7 @@ div {
 }
 
 .bodyclass {
-    background-image: url("assets/banner.jpg");
+    background-image: url("../banner.jpg");
     background-size: cover;
     background-position: center left;
     width: 100%;
@@ -21,10 +21,9 @@ div {
 }
 
 .wrapper {
-    padding: 5%;
+    padding: 10% 1%;
     margin: 0 10%;
-    max-width: 500px;
-    font-family: "Archivo", sans-serif;
+    max-width: 780px;
     box-sizing: border-box;
     min-height: 100vh;
     align-content: center;
@@ -35,8 +34,8 @@ div {
 .container {
     line-height: 1.6;
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-65%,-50%);
+    /*top: 50%; left: 50%;*/
+    /*transform: translate(-65%,-50%);*/
 }
 
 .topbox {
@@ -46,10 +45,10 @@ div {
 }
 
 .topbox .name {
-    font-family: "Raleway Light", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 60px;
     color: #f2f2f2;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 a.twitter-button {
@@ -57,6 +56,8 @@ a.twitter-button {
 }
 
 .description {
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
     color: #f2f2f2;
 }
 
@@ -69,7 +70,7 @@ a.twitter-button {
 }
 
 .socials {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 .socials a i:before {
@@ -111,10 +112,23 @@ a.twitter-button {
     }
 }
 
-/* fonts */
-@font-face {
-    font-family: Raleway;
-    src: url("../nihadguluzade.github.io/assets/fonts/Raleway/Raleway-Light.ttf") format('truetype');
-    font-weight: light;
-    font-style: normal;
+.buttons {
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    position: relative;
+    padding: 12px 24px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    background-color: #275efe;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    filter: drop-shadow(0 2px 8px rgba(#275efe, 0.32));
 }
