@@ -22,7 +22,7 @@ div {
 
 .wrapper {
     padding: 10% 1%;
-    margin: 0 10%;
+    margin: 0 3%;
     max-width: 780px;
     box-sizing: border-box;
     min-height: 100vh;
@@ -34,8 +34,7 @@ div {
 .container {
     line-height: 1.6;
     position: absolute;
-    /*top: 50%; left: 50%;*/
-    /*transform: translate(-65%,-50%);*/
+    /*margin: 1em auto;*/
 }
 
 .topbox {
@@ -57,7 +56,7 @@ a.twitter-button {
 
 .description {
     font-family: "Archivo", sans-serif;
-    font-weight: 300;
+    font-weight: 100;
     color: #f2f2f2;
 }
 
@@ -70,7 +69,7 @@ a.twitter-button {
 }
 
 .socials {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .socials a i:before {
@@ -98,6 +97,11 @@ a.twitter-button {
     transition: all .15s;
 }
 
+.social-mail:hover .fa-envelope-o:before {
+    color: #007bff;
+    transition: all .15s;
+}
+
 /* phones */
 @media (min-width: 320px) and (max-width: 567px) {
     .container {
@@ -116,19 +120,31 @@ a.twitter-button {
     margin-bottom: 30px;
 }
 
-.buttons a {
-    position: relative;
-    padding: 12px 24px;
-    font-family: "Archivo", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1;
-    color: white;
-    background-color: #275efe;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    overflow: hidden;
-    cursor: pointer;
-    filter: drop-shadow(0 2px 8px rgba(#275efe, 0.32));
+.a-btn {
+    background-color: #444444!important;
+    font-size: 20px!important;
+    color: #ffffff!important;
+}
+
+.row .card {
+    max-width: 350px!important;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.custom-font {
+    font-family: Archivo, sans-serif;
+    font-weight: 100;
+}
+
+.row.custom-center * {
+    margin: 0 auto;
+}
+
+.font-weight-light {
+    font-weight: 100;
 }
