@@ -128,7 +128,7 @@ a.twitter-button {
 
 .row .card {
     max-width: 350px!important;
-    margin: 0 auto;
+    margin: 0 auto 25px;
 }
 
 .header {
