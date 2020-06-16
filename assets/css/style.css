@@ -120,6 +120,10 @@ a.twitter-button {
     margin-bottom: 30px;
 }
 
+.buttons a {
+    margin-right: 10px;
+}
+
 .a-btn {
     background-color: #444444!important;
     font-size: 20px!important;
