@@ -14,7 +14,13 @@
 
     <!-- jquery first then bootstrap -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
 </head>
 <body class="custom-font">
 
@@ -41,7 +47,20 @@
                 <h2 class="font-weight-light">My Projects</h2>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Client for Reddit</h5>
+                        <p class="card-text">Web client application with Spring framework that allows users to read, create, and write different type of posts using Reddit APIs.</p>
+                        <a class="btn-link" href="javascript:void(0)" data-container="body" data-toggle="popover" data-placement="bottom" data-content="The source code of this project will be available later.">Learn More</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Java, Spring (MVC, Boot, Security), Hibernate, REST, Thymeleaf, PostgreSQL</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Dataset Generator using GAN</h5>
@@ -54,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Market System</h5>
@@ -67,7 +86,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
+            <div class="col-md-3 col-sm-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Tweet Analyzer</h5>
