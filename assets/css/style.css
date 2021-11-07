@@ -127,6 +127,10 @@ a.twitter-button {
     .topbox .name {
         font-size: 32px;
     }
+
+    .my-section .section-card {
+        width: 100% !important;
+    }
 }
 
 .buttons {
